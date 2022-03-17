@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards.jsx";
 import Particle from "../Particle";
 import Apollo from "../../Assets/Projects/Apollo.png";
 import Nike from "../../Assets/Projects/Nike.png";
+import { SiHtml5 } from "react-icons/si";
 
 function Projects() {
   return (
@@ -25,6 +26,7 @@ function Projects() {
               description="An E-Commerce website that sells sportswear and
               accessories build with Embedded JavaScript, MongoDB, HTML and CSS."
               link="https://github.com/Shubhamfw13/NikeIndia"
+              project="https://nike-in-masai-project.herokuapp.com"
             />
           </Col>
 
@@ -36,6 +38,7 @@ function Projects() {
               description="A digital healthcare platform that sells healthcare
               products and provides laboratory services build with JavaScript, HTML and CSS"
               link="https://github.com/Shubhamfw13/Apollo24-7"
+              project="https://quirky-neumann-18c833.netlify.app"
             />
           </Col>
         </Row>

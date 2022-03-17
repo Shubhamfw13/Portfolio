@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects.jsx";
-import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
@@ -41,6 +40,7 @@ function App() {
           <Route path="/resume" exact component={Resume} />
           <Redirect to="/" />
         </Switch>
+       
         {/* <Home />
         <Resume />
         <About />

@@ -4,6 +4,9 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
+import pdf from "../../Assets/../Assets/shubhamresume.pdf";
+import Button from "react-bootstrap/Button";
+import { AiOutlineDownload } from "react-icons/ai";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
@@ -21,6 +24,17 @@ function About() {
               paddingBottom: "50px",
             }}
           >
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Check My Resume <strong className="purple">here</strong>
+            </h1>
+            <Row style={{ justifyContent: "center", position: "relative" }}>
+              <Button variant="primary" href={pdf} target="_blank">
+                <AiOutlineDownload />
+                &nbsp;Resume
+              </Button>
+            </Row>
+            <br />
+
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>

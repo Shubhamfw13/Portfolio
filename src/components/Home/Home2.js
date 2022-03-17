@@ -1,12 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../Assets/shubhamkumar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -22,7 +19,7 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in
               <i>
                 <b className="purple">
                   {" "}
@@ -35,9 +32,7 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple">Fitness and exploring Mysteries.</b>
               </i>
               <br />
               <br />
@@ -65,9 +60,21 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Are you looking for a fast-performing and user-friendly website to
+              represent your product or business? or want to ask questions? or
+              have some advice for me or just want to say "Hi 👋" in any case
+              feel free to Let me know. I will do my best to respond back. 😊
+              The quickest way to reach out to me is via an email
             </p>
             <ul className="home-about-social-links">
+              <Button href="https://mail.google.com/mail/u/0/#inbox">
+                sk9112019@gmail.com
+              </Button>
+              <br />
+              <br />
+              Feel free to <span className="purple">connect </span>with me
+              <br />
+              <br />
               <li className="social-icons">
                 <a
                   href="https://github.com/Shubhamfw13"
@@ -78,7 +85,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/shubham-kumar-929356230/"
